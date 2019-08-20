@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rocket.Libraries.ConsulHelper", "Rocket.Libraries.ConsulHelper\Rocket.Libraries.ConsulHelper.csproj", "{498AC2D1-B549-4752-B107-084F6EE6D04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "Examples\ConsoleApp1\ConsoleApp1.csproj", "{277ADE36-E1DC-4886-9ED2-BB07EB8B5013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{498AC2D1-B549-4752-B107-084F6EE6D04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498AC2D1-B549-4752-B107-084F6EE6D04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498AC2D1-B549-4752-B107-084F6EE6D04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498AC2D1-B549-4752-B107-084F6EE6D04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277ADE36-E1DC-4886-9ED2-BB07EB8B5013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277ADE36-E1DC-4886-9ED2-BB07EB8B5013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277ADE36-E1DC-4886-9ED2-BB07EB8B5013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277ADE36-E1DC-4886-9ED2-BB07EB8B5013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ED1898C-9377-4993-9BE8-80561926C957}
+	EndGlobalSection
+EndGlobal
