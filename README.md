@@ -46,7 +46,7 @@ public void ConfigureServices(IServiceCollection services)
     services.AddSingleton<IConsulRegistryReader, ConsulRegistryReader>();
     
     // We take advantage of Hosted Services functionality to allow us to automatically register to Consul once our service is up.
-    services.AddHostedService<ConsulRegistrar>();
+    services.AddHostedService<ConsulRegistryWriter>();
 }
 ```
 
