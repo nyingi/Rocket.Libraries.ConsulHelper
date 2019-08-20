@@ -12,6 +12,8 @@
     <Description>Dead simple library to register services to Consul and to query Consul for registered services.</Description>
     <Authors>Nyingi Maina</Authors>
     <Company>Nyingi Maina</Company>
+    <PackageProjectUrl>https://github.com/nyingi/Rocket.Libraries.ConsulHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nyingi/Rocket.Libraries.ConsulHelper</RepositoryUrl>
   </PropertyGroup>
   
   <ItemGroup>
