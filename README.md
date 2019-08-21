@@ -1,5 +1,5 @@
 # Rocket.Libraries.ConsulHelper
-Dead simple library to register services to Consul and to query Consul for registered services.
+Dead simple .Net library to register services to Consul and to query Consul for registered services.
 
 ## Quick Start
 ### Installation
@@ -46,7 +46,7 @@ public void ConfigureServices(IServiceCollection services)
     services.AddSingleton<IConsulRegistryReader, ConsulRegistryReader>();
     
     // We take advantage of Hosted Services functionality to allow us to automatically register to Consul once our service is up.
-    services.AddHostedService<ConsulRegistrar>();
+    services.AddHostedService<ConsulRegistryWriter>();
 }
 ```
 
